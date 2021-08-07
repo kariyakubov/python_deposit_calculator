@@ -10,5 +10,5 @@ SBER = int((per_cent['СБЕР']) * (money/100))
 
 deposit = [TKB, SKB, VTB, SBER]
 
-print("Ежегодный доход со вкладов в каждом из банков =",deposit, "р.")
+print("Ежегодный доход со вкладов в каждом из банков: ",deposit, "р.")
 print("Наибольший ежегодный доход: ", max(deposit), "р.")
